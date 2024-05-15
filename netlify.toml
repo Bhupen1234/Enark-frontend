@@ -1,2 +1,2 @@
 [build]
-  node_version = "16"
+  command = "NODE_OPTIONS='--openssl-legacy-provider' npm run build"
